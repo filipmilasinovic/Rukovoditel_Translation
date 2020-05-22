@@ -787,7 +787,7 @@ define('TEXT_EXT_FONT_STYLE','Stil slova');
 define('TEXT_EXT_ALIGNMENT','Ravnanje');
 define('TEXT_EXT_TEXT_DIRECTION','Smer teksta');
 define('TEXT_EXT_BORDER','Okvir');
-define('TEXT_EXT_CELL_MARGIN','Mrgina ćelije');
+define('TEXT_EXT_CELL_MARGIN','Margina ćelije');
 define('TEXT_EXT_CELL_SPACING','Rastojanje ćelija');
 define('TEXT_EXT_HEADER_HEIGHT','Visina naslova');
 define('TEXT_EXT_LINE_NUMBERING','Numerisanje linija');
