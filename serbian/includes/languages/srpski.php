@@ -29,7 +29,7 @@ define('TEXT_FIELDTYPE_CHECKBOXES_TITLE','Чекбокс');
 define('TEXT_FIELDTYPE_RADIOBOXES_TITLE','Радиобокс');
 define('TEXT_FIELDTYPE_FORMULA_TITLE','MySQL формула');
 define('TEXT_FIELDTYPE_USERS_TITLE','Корисници');
-define('TEXT_FIELDTYPE_GROUPEDUSERS_TITLE','Груоисани корисници');
+define('TEXT_FIELDTYPE_GROUPEDUSERS_TITLE','Груписани корисници');
 define('TEXT_FIELDTYPE_ENTITY_TITLE','Ентитет');
 define('TEXT_FIELDTYPE_ACTION_TITLE','Акција');
 define('TEXT_FIELDTYPE_ID_TITLE','ИД');
