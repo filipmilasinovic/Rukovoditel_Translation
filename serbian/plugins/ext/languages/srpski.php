@@ -808,7 +808,44 @@ define('TEXT_EXT_ENTER_REPORT_ID_TO_FILTER','Унеси ИД извештаја 
 define('TEXT_EXT_EXPORT_TEMPLATES_ENTITY_BLOCK_TIP','За приказ података из повезаних ентитета, додај неопходнаа поља.');
 define('TEXT_EXT_EXPORT_TEMPLATES_TABLE_LIST_BLOCK_TIP','За приказ табеле, додај колоне. Свака колона може приказати више поља.');
 
-
+//new defines for ext 2.8
+define('TEXT_EXT_SEND_TO_RELATED_ENTITY','Send to a number in a linked entity');
+define('TEXT_EXT_DHTMLXGANTT_PRO_INFO','The settings on this page are only available in the professional edition of <a href="https://dhtmlx.com/docs/products/dhtmlxGantt/download.shtml" target="_new">dhtmlxGantt</a>.<br>To install dhtmlxGantt PRO, copy the /codebase folder from the installation archive to /js/dhtmlxGantt/Pro/');
+define('TEXT_EXT_GANTT_INFO','You have the ability to bind a Gantt chart to any entity with Start Date and End Date fields. <a href="https://docs.rukovoditel.net/index.php?p=36" target="_blank"><u>Read more.</u></a><br>
+The standard version of the <a href="https://dhtmlx.com/docs/products/dhtmlxGantt/" target="_new"><u>dhtmlxGantt</u></a> library is used to build the Gantt chart.');
+define('TEXT_EXT_AUTO_SCHEDULING','Auto Scheduling');
+define('TEXT_EXT_AUTO_SCHEDULING_INFO','Gives Gantt the ability to schedule tasks automatically depending on relations between them. <a href="https://docs.dhtmlx.com/gantt/desktop__auto_scheduling.html" target="_blank"><u>Read more.</u></a>');
+define('TEXT_EXT_HIGHLIGHT_CRITICAL_PATH','Highlight critical path');
+define('TEXT_EXT_HIGHLIGHT_CRITICAL_PATH_INFO','A critical path is a sequence of tasks that can\'t be delayed. <a href="https://docs.dhtmlx.com/gantt/desktop__critical_path.html" target="_blank"><u>Read more.</u></a>');
+define('TEXT_EXT_HIDE_ZERO_VALUES','Hide zero values');
+define('TEXT_EXT_SELECT_BUTTONS_TO_DISPLAY','Select one or more buttons to display');
+define('TEXT_EXT_MULTIPLE_BUTTONS_DISPLAY_TYPE','Select the type of display for multiple buttons');
+define('TEXT_EXT_IN_RECORD_PAGE','On the record page');
+define('TEXT_EXT_IN_LISTING','In records listing');
+define('TEXT_EXT_BUTTON_GROUP','Button group');
+define('TEXT_EXT_CLEAR_EMAIL_ACCOUNT','Clear email account');
+define('TEXT_EXT_CLEAR_EMAIL_ACCOUNT_CONFIRM','All emails associated with the "<b>%s</b>" account will be deleted.');
+define('TEXT_EXT_RECORDS_DELETED','Records deleted');
+define('TEXT_EXT_DELETED','Deleted');
+define('TEXT_EXT_EVENT_LIMIT','Event limit');
+define('TEXT_EXT_EVENT_LIMIT_INFO','Limits the number of events displayed on a day (for Day and Week modes). The rest will show up in a popover.');
+define('TEXT_EXT_PIVOT_TABLES','Pivot Tables PRO');
+define('TEXT_EXT_PIVOT_TABLES_INFO','This report allows you to build a pivot table for the selected entity. After creating the report, select the fields for the report. In addition to the selected fields, you can create your own calculations in the report. <a href="https://docs.rukovoditel.net/index.php?p=106" target="_blank"><u>Read more.</u></a>');
+define('TEXT_REPORT_IS_OUTDATED','This report is outdated and will no longer be supported. It is recommended to switch to the <a href="%s">new version of the report</a>.');
+define('TEXT_EXT_PIE_CHART', 'Pie chart');
+define('TEXT_EXT_BAR_CHART', 'Bar');
+define('TEXT_EXT_COLUMN_CHART', 'Column');
+define('TEXT_EXT_LINE_CHART', 'Line chart');
+define('TEXT_EXT_PYRAMID_CHART', 'Pyramid');
+define('TEXT_EXT_PROCESS_ACTION_SAVE_EXPORT_TEMPLATE','Entity "%s"  - save template to export');
+define('TEXT_EXT_SELECT_TEMPLATES_TO_SAVE','Select templates which you want to attach to specific field. <a href="https://docs.rukovoditel.net/index.php?p=109" target="_blank"><u>Read more.</u></a>');
+define('TEXT_EXT_ATTACH_ATTACHMENTS_TO_EMAIL_INFO','In the message text, add the fields from which you want to attach attachments.');
+define('TEXT_EXT_ATTACH_TEMPLATE','Attach template');
+define('TEXT_EXT_EXPORT_TEMPLATE_TYPE_HTML_CODE_INFO','Preparing a template using only HTML code');
+define('TEXT_EXT_LABEL','Label');
+define('TEXT_EXT_EXPORT_TEMPLATE_TYPE_LABEL_INFO','To print labels with a specified size');
+define('TEXT_EXT_LABEL_SIZE','Label size');
+define("TEXT_EXT_ENTER_SIZE_IN_MM",'Enter the size in millimeters');
 
 
 
