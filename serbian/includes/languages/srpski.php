@@ -1635,34 +1635,34 @@ define('TEXT_ERROR_REQUIRED_URL','Молим унесите валидан URL.'
 define('TEXT_EXTENSION_REQUIRED_URL','<a href="https://www.rukovoditel.net/extension.php" target="_blank">' . TEXT_EXTENSION_REQUIRED . '</a>');
 
 //new defines for version 2.8
-define('TEXT_JS_CODE','JS Code');
-define('TEXT_CODE_ON_ITEM_PAGE','The entered code will be embedded on the item page. <a href="https://docs.rukovoditel.net/index.php?p=66" target="_blank"><u>Read more.</u></a>');
-define('TEXT_FIELDTYPE_PHP_CODE_TITLE','PHP Code');
-define('TEXT_FIELDTYPE_PHP_CODE_TOOLTIP','A special field type that allows you to run your own PHP code. <a href="https://docs.rukovoditel.net/index.php?p=104" target="_blank"><u>Read more.</u></a>');
-define('TEXT_RUN_DYNAMIC','Execute dynamically');
-define('TEXT_FIELDTYPE_PHP_CODE_RUN_DYNAMIC_INFO','By default, the code is executed when adding/editing a record. By setting this option, the code will be executed directly when viewing the record.');
-define('TEXT_FIELDTYPE_PROCESS_BUTTON_TITLE','Process button');
-define('TEXT_FIELDTYPE_PROCESS_BUTTON_TOOLTIP','A special type of field that can be used to display the button from automate actions directly in the list of records. <a href="https://docs.rukovoditel.net/index.php?p=105" target="_blank"><u>Read more.</u></a>');
-define('TEXT_FIELDTYPE_VIDEO_TITLE','Video');
-define('TEXT_FIELDTYPE_VIDEO_TOOLTIP','Input field for entering a url from YouTube or Vimeo. You can also enter a direct link to the video file (.mp4 .ogg .webm).');
-define('TEXT_VIDEO_PLAYER','Video player');
-define('TEXT_VIDEO_TAG_NOT_SUPPORTED','Your browser does not support the video tag.');
+define('TEXT_JS_CODE','JS код');
+define('TEXT_CODE_ON_ITEM_PAGE','Унешени код ће бити уврштен на страници записа. <a href="https://docs.rukovoditel.net/index.php?p=66" target="_blank"><u>Read more.</u></a>');
+define('TEXT_FIELDTYPE_PHP_CODE_TITLE','PHP код');
+define('TEXT_FIELDTYPE_PHP_CODE_TOOLTIP','Посебан тип поља који омогућава покретање вашег PHP кода. <a href="https://docs.rukovoditel.net/index.php?p=104" target="_blank"><u>Прочитај више.</u></a>');
+define('TEXT_RUN_DYNAMIC','Изврши динамичи');
+define('TEXT_FIELDTYPE_PHP_CODE_RUN_DYNAMIC_INFO','Подразумевано, код се извршава приликом додавања/измене записа. Постављањем ове опције, код ће се извршавати прилико мрегледа записа.');
+define('TEXT_FIELDTYPE_PROCESS_BUTTON_TITLE','Тастер процеса');
+define('TEXT_FIELDTYPE_PROCESS_BUTTON_TOOLTIP','Посебан тип поља који се може користити за приказ тастера на листи записа. <a href="https://docs.rukovoditel.net/index.php?p=105" target="_blank"><u>Прочитај више.</u></a>');
+define('TEXT_FIELDTYPE_VIDEO_TITLE','Видео');
+define('TEXT_FIELDTYPE_VIDEO_TOOLTIP','Поље за унос url-а са сервиса YouTube или Vimeo. Можете унети и директан линк на видео фајл (.mp4 .ogg .webm).');
+define('TEXT_VIDEO_PLAYER','Видео плејер');
+define('TEXT_VIDEO_TAG_NOT_SUPPORTED','Ваш прегледач не подржава видео таг.');
 define('TEXT_BUTTON_DISPLAYS_IN_LISTING','The button is displays in records listing');
-define('TEXT_HIDE_VIDEO_PLAYER','Hide the video player on record page');
-define('TEXT_FIELDTYPE_INPUT_ENCRYPTED_TITLE','Encrypted input field');
-define('TEXT_HIDE_VALUE','Hide value');
-define('TEXT_FIELDTYPE_INPUT_ENCRYPTED_TOOLTIP','The entered value is stored encrypted in the database. Data is encrypted using a special key.');
-define('TEXT_ENCRYPTION_KEY','Encryption key');
-define('TEXT_ENCRYPTION_KEY_INFO','To add an encryption key open <code>config/server.php</code> file and <br>
-insert the following line at the end of the file: <code>define(\'DB_ENCRYPTION_KEY\',\'my_key\');</code><br>
-Instead of <code>my_key</code>, enter your key.<br>
-<b>Note:</b> you cannot change the key for existing data. This will result in data loss.');
-define('TEXT_FIELDTYPE_TEXTAREA_ENCRYPTED_TITLE','Textarea Encrypted');
-define('TEXT_ENCRYPTION_KEY_ERROR','Error: field "%s" requires an encryption key. Check the field settings.');
-define('TEXT_ADD_ROW','Add Row');
-define('TEXT_ROW','Row');
-define('TEXT_COUNT_OF_COLUMNS','Count of columns');
-define('TEXT_COLUMN_WIDHT','Column width');
+define('TEXT_HIDE_VIDEO_PLAYER','Сакри видео плејер на страници записа');
+define('TEXT_FIELDTYPE_INPUT_ENCRYPTED_TITLE','Енкриптовано поље за унос');
+define('TEXT_HIDE_VALUE','Сакри вредност');
+define('TEXT_FIELDTYPE_INPUT_ENCRYPTED_TOOLTIP','Унета вредност се складишти енкриптована у бази података. Податак се криптује употребом специјалног кључа.');
+define('TEXT_ENCRYPTION_KEY','Кључ енкрипције');
+define('TEXT_ENCRYPTION_KEY_INFO','За додавање кључа енкрипције отвори <code>config/server.php</code> фајл и <br>
+унеси следећу линију на крају фајла: <code>define(\'DB_ENCRYPTION_KEY\',\'мој_кључ`\');</code><br>
+Иместо <code>мој_кључ</code>, унеси кључ.<br>
+<b>Напомена:</b> не можете променити кључ за постојеће податке. То ће резутирати губитком података..');
+define('TEXT_FIELDTYPE_TEXTAREA_ENCRYPTED_TITLE','Енкриптована област текста');
+define('TEXT_ENCRYPTION_KEY_ERROR','Грешка: поље "%s" зактева кључ енкрипције. Провери подешавање поља.');
+define('TEXT_ADD_ROW','Додај ред');
+define('TEXT_ROW','Ред');
+define('TEXT_COUNT_OF_COLUMNS','Број колона');
+define('TEXT_COLUMN_WIDHT','Ширина колоне');
 define('TEXT_PREVIEW','Preview');
 define('TEXT_FORMS_ROWS_INFO','After adding a row, move the fields to columns. Please note: the field width is equal to the column width.');
 define('TEXT_FIELD_NAME_IN_NEW_ROW','Field name on new row');
@@ -1680,7 +1680,7 @@ define('TEXT_PLAY_AUDIO_FILE','Play an audio file');
 define('TEXT_VALIDATE_URL','Validate url');
 define('TEXT_DATE_FORMAT_IN_CALENDAR','Date format in calendar');
 define('TEXT_FIELDTYPE_SUBENTITY_FORM_TITLE','Nested Entity Form');
-define('TEXT_FIELDTYPE_SUBENTITY_FORM_TOOLTIP','This type allows you to embed the form of a nested entity in the form of the parent entity. This means that when a parent record is added, records for the nested entity will also be added at the same time. <a href="https://docs.rukovoditel.net/index.php?p=107" target="_blank"><u>Read more.</u></a>');
+define('TEXT_FIELDTYPE_SUBENTITY_FORM_TOOLTIP','This type allows you to embed the form of a nested entity in the form of the parent entity. This means that when a parent record is added, records for the nested entity will also be added at the same time. <a href="https://docs.rukovoditel.net/index.php?p=107" target="_blank"><u>Прочитај више.</u></a>');
 define('TEXT_SUB_ENTITY','Nested entity');
 define('TEXT_FIELDS_DISPLAY','Fields display');
 define('TEXT_INTO_COLUMN','Into a column');
@@ -1697,9 +1697,9 @@ define('TEXT_SHOW_NUMBER_OF_RECORDS','Show number of records');
 define('TEXT_INSERT_RECORD_AUTOMATICALLY','Insert record automatically');
 define('TEXT_INSERT_RECORD_AUTOMATICALLY_INFO','Enter the number of records that will be automatically added to the form.');
 define('TEXT_PDF_EXPORT_FONTS','Fonts for export to pdf');
-define('TEXT_PDF_EXPORT_FONTS_INFO','The <a href="https://github.com/dompdf/dompdf" target="_blank">Dompdf</a> library is used to export data in PDF format. On this page you can add your own fonts that can be used in export templates. <a href="https://docs.rukovoditel.net/index.php?p=108" target="_blank"><u>Read more.</u></a>');
+define('TEXT_PDF_EXPORT_FONTS_INFO','The <a href="https://github.com/dompdf/dompdf" target="_blank">Dompdf</a> library is used to export data in PDF format. On this page you can add your own fonts that can be used in export templates. <a href="https://docs.rukovoditel.net/index.php?p=108" target="_blank"><u>Прочитај више.</u></a>');
 define('TEXT_FONTS_FOLDER','Fonts folder');
-define('TEXT_ERRROR_FILE_NOT_WRITABLE','Error: file "%s" is not writable!');
+define('TEXT_ERRROR_FILE_NOT_WRITABLE','Грешка: file "%s" is not writable!');
 define('TEXT_ROTATE','Rotate');
 define('TEXT_CREATE_ATTACHMENTS_PREVIEW','Create separate file for image preview');
 define('TEXT_CREATE_ATTACHMENTS_PREVIEW_TIP','Applies if the "preview" option is set for the "Attachments" field');
@@ -1714,9 +1714,9 @@ define('TEXT_BARCODE','Barcode');
 define('TEXT_ENTER_TEXT_PATTERN_DEATE_INFO','${Ymd} - current date: ' . date('Ymd') . ' (<a href="https://www.php.net/manual/en/datetime.format.php" target="_blank">date format</a> can be adjusted)');
 define('TEXT_BARCODE_GENERATED_AUTOMATICALLY','Barcode generated automatically');
 define('TEXT_FIELDTYPE_RANDOM_VALUE_UNIQUE_TOOLTIP','Each value is unique to the current entity.');
-define('TEXT_SCANNING_BARCODE','Scanning a barcode');
-define('TEXT_SSL_REQUIRED','SSL Required');
-define('TEXT_CAMERA','Camera');
+define('TEXT_SCANNING_BARCODE','Скенирање бар кода');
+define('TEXT_SSL_REQUIRED','SSL је обавезан');
+define('TEXT_CAMERA','Камера');
 
 
 
