@@ -13,15 +13,15 @@ define('TEXT_EXT_LICENSE_KEY_INFO','Nakon postavljanja Vaše narudžbe, možete 
 define('TEXT_EXT_PRODUCT_KEY_NOT_CORRECT','Ključ licence nije pogodan za domen:');
 define('TEXT_EXT_LICENSE_ACTIVE','Licencni ključ je aktivan za domen:');
 
-define('TEXT_EXT_СALENDAR','Kalendar');
-define('TEXT_EXT_MY_СALENDAR','Moj kalendar');
-define('TEXT_EXT_СALENDAR_PERSONAL','Lični kalendar');
-define('TEXT_EXT_СALENDAR_PERSONAL_ACCESS','Izaberite grupe korisnika koje će imati pristup vašem ličnom kalendaru.');
-define('TEXT_EXT_СALENDAR_PUBLIC','Opšti kalendar');
-define('TEXT_EXT_СALENDAR_PUBLIC_ACCESS','Izaberite grupu korisnika koji će imati pristup vašem opštem kalendaru.');
-define('TEXT_EXT_СALENDAR_REPORTS','Kalendarski izveštaji');
-define('TEXT_EXT_СALENDAR_START_DATE','Početni datum');
-define('TEXT_EXT_СALENDAR_END_DATE','Krajnji datum');
+define('TEXT_EXT_SALENDAR','Kalendar');
+define('TEXT_EXT_MY_SALENDAR','Moj kalendar');
+define('TEXT_EXT_SALENDAR_PERSONAL','Lični kalendar');
+define('TEXT_EXT_SALENDAR_PERSONAL_ACCESS','Izaberite grupe korisnika koje će imati pristup vašem ličnom kalendaru.');
+define('TEXT_EXT_SALENDAR_PUBLIC','Opšti kalendar');
+define('TEXT_EXT_SALENDAR_PUBLIC_ACCESS','Izaberite grupu korisnika koji će imati pristup vašem opštem kalendaru.');
+define('TEXT_EXT_SALENDAR_REPORTS','Kalendarski izveštaji');
+define('TEXT_EXT_SALENDAR_START_DATE','Početni datum');
+define('TEXT_EXT_SALENDAR_END_DATE','Krajnji datum');
 define('TEXT_EXT_HEADING_EVENTS_INFO','Podaci o događaju');
 define('TEXT_EXT_EVENT_NAME','Naziv događaja');
 define('TEXT_EXT_EVENT_START_DATE','Datum početka');
@@ -567,7 +567,8 @@ define('TEXT_EXT_SAVE_CALL_URL_INFO','Upotrebite ovaj URL na događaju koji je p
 		phone - broj telefona<br>
 		date_added - datum događaja (timestamp)<br>
 		direction - smer poziva (out|in)<br>
-		duration - trajanje poziva (u sekundama)');
+		duration - trajanje poziva (u sekundama)
+		');
 define('TEXT_EXT_SHOW_CALL_SMS_HISTORY','Prikaži istoriju poziva i SMS-a');
 define('TEXT_EXT_HISTORY','Istorija');
 define('TEXT_EXT_SMS','SMS');
@@ -667,11 +668,11 @@ define('TEXT_EXT_MAIL_ENTITIES_RULES_INFO','Postavi pravila pod kojim će se aut
 //new defines for ext 2.6
 define('TEXT_EXT_IPAGES_ACCESS_CONFIGURATION','Odaberi korisnike koji mogu upravljati inforamcionim stranicama.');
 define('TEXT_IPAGE_DESCRIPTION_TIP','Za ubacivanje slike u tekst, samo je prevuci u opis.<br>Ime priložene datoteke u opisu se automatski konvertuje u link ka datoteci.');
-define('TEXT_EXT_PIVOT_СALENDAR','Izvedeni kalendar');
-define('TEXT_EXT_PIVOT_СALENDAR_INFO','Ova vrsta izveštaja omogućava kombinovanje više entiteta u jedan kalendar. Po kreiranju izveštaja, traženi entiteti se dodaju klikom na ime. <a href="https://docs.rukovoditel.net/index.php?p=91" target="_blank"><u>Opširnije.</u></a>');
+define('TEXT_EXT_PIVOT_SALENDAR','Izvedeni kalendar');
+define('TEXT_EXT_PIVOT_SALENDAR_INFO','Ova vrsta izveštaja omogućava kombinovanje više entiteta u jedan kalendar. Po kreiranju izveštaja, traženi entiteti se dodaju klikom na ime. <a href="https://docs.rukovoditel.net/index.php?p=91" target="_blank"><u>Opširnije.</u></a>');
 define('TEXT_EXT_DISPLYA_IN_MAIN_MENU','Prikaži u glavnom meniju');
 define('TEXT_EXT_DISPLYA_IN_MAIN_MENU_TIP','Podrazumevano, izveštaj je prikazan u sekciji "Izveštaji".');
-define('TEXT_EXT_PIVOT_СALENDAR_ENTITIES_INFO','Dodaj tražene entitete. Traženi filteri se za svaki entitet postavljaju klikom na ime tog entiteta.');
+define('TEXT_EXT_PIVOT_SALENDAR_ENTITIES_INFO','Dodaj tražene entitete. Traženi filteri se za svaki entitet postavljaju klikom na ime tog entiteta.');
 define('TEXT_EXT_DISPLAY_ENTITY_NAME','Prikaži ime entiteta');
 define('TEXT_EXT_ITEM_PIVOT_TABLES','Stavka izvedene tabele');
 define('TEXT_EXT_ITEM_PIVOT_TABLES_INFO','Ova vrsta izveštaja omogućava pravljenje izvedene tabele za povezane zapise i prikazivanje iste direktno na info stranici stavke. Po kreiranju izveštaja, ženjene računice se dodaju klikom na ime. <a href="https://docs.rukovoditel.net/index.php?p=86" target="_blank"><u>Opširnije.</u></a>');
@@ -714,7 +715,7 @@ define('TEXT_EXT_TEMPLATES_HEADER_FOOTER_TIP','Zaglavlje i podnožje strane se u
 define('TEXT_EXT_ALLOW_EDIT_REPORT','Dizvoli izmene izveštaja');
 define('TEXT_EXT_ALLOW_EDIT_REPORT_TIP','Podrazumevano, dostupan je samo pregled izveštaja');
 define('TEXT_EXT_YES_AND_USE_VALUE','D i koristi vrednost');
-define('TEXT_EXT_DIGITAL_SIGNATURE','Difitalni potpis');
+define('TEXT_EXT_DIGITAL_SIGNATURE','Digitalni potpis');
 define('TEXT_EXT_ELECTRONIC_DIGITAL_SIGNATURE','Elektronski digitalni potpis');
 define('TEXT_EXT_ELECTRONIC_DIGITAL_SIGNATURE_INFO','');
 define('TEXT_EXT_ATTACH_ATTACHMENTS_TO_EMAIL','Dodaj priloge na e-poštu');
@@ -806,3 +807,53 @@ define('TEXT_EXT_TABLE_LIST','Lista tabela');
 define('TEXT_EXT_ENTER_REPORT_ID_TO_FILTER','Unesi ID izveštaja za filtriranje zapisa.');
 define('TEXT_EXT_EXPORT_TEMPLATES_ENTITY_BLOCK_TIP','Za prikaz podataka iz povezanih entiteta, dodaj neophodnaa polja.');
 define('TEXT_EXT_EXPORT_TEMPLATES_TABLE_LIST_BLOCK_TIP','Za prikaz tabele, dodaj kolone. Svaka kolona može prikazati više polja.');
+
+//new defines for ext 2.8
+define('TEXT_EXT_SEND_TO_RELATED_ENTITY','Pošalji u broj u povezanom entitetu');
+define('TEXT_EXT_DHTMLXGANTT_PRO_INFO','Podešavanja na ovoj strani su raspoloživa samo u profesionalnoj verziji biblioteke <a href="https://dhtmlx.com/docs/products/dhtmlxGantt/download.shtml" target="_new">dhtmlxGantt</a>.<br>Za instalaciju dhtmlxGantt PRO, kopiraj /codebase folder iz instalacione arhive u /js/dhtmlxGantt/Pro/');
+define('TEXT_EXT_GANTT_INFO','Imate mogućnost povezivznjz gantograma i bilo kog entiteta sa poljima početni (Start Date) i krajnji datum (End Date). <a href="https://docs.rukovoditel.net/index.php?p=36" target="_blank"><u>Pročitaj više.</u></a><br>
+Standardna verzija biblioteke <a href="https://dhtmlx.com/docs/products/dhtmlxGantt/" target="_new"><u>dhtmlxGantt</u></a> se koristi za prikaz gantograma.');
+define('TEXT_EXT_AUTO_SCHEDULING','Automatsko zakazivanje');
+define('TEXT_EXT_AUTO_SCHEDULING_INFO','Daje Gantogramu mogućnost automatskog zakazivanja zadataka u zavisnosti od njihovih međusobnih odnosa. <a href="https://docs.dhtmlx.com/gantt/desktop__auto_scheduling.html" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_EXT_HIGHLIGHT_CRITICAL_PATH','Označi kritičnu puranju');
+define('TEXT_EXT_HIGHLIGHT_CRITICAL_PATH_INFO','Kritična putanja je niz zadataka koji je nerazdvojan. <a href="https://docs.dhtmlx.com/gantt/desktop__critical_path.html" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_EXT_HIDE_ZERO_VALUES','Sakrij nulte vrednosti');
+define('TEXT_EXT_SELECT_BUTTONS_TO_DISPLAY','Odaberi jedan ili više tastera za prokaz');
+define('TEXT_EXT_MULTIPLE_BUTTONS_DISPLAY_TYPE','Odaberi tip prikaza za više tastera');
+define('TEXT_EXT_IN_RECORD_PAGE','Na stranici zapisa');
+define('TEXT_EXT_IN_LISTING','U listingu zapisa');
+define('TEXT_EXT_BUTTON_GROUP','Grupa tastera');
+define('TEXT_EXT_CLEAR_EMAIL_ACCOUNT','Očisti nalog e-pošte');
+define('TEXT_EXT_CLEAR_EMAIL_ACCOUNT_CONFIRM','Sve e-poruke povezane sa nalogom "<b>%s</b>" će biti obrisane.');
+define('TEXT_EXT_RECORDS_DELETED','Zapisa obrisano');
+define('TEXT_EXT_DELETED','Obrisano');
+define('TEXT_EXT_EVENT_LIMIT','Limit događaja');
+define('TEXT_EXT_EVENT_LIMIT_INFO','Limitira broj događaja prikazanih po danu (U modu Dan u nedelji). Ostali će se prikazati u popap prozoru.');
+define('TEXT_EXT_PIVOT_TABLES','Pivot tabele PRO');
+define('TEXT_EXT_PIVOT_TABLES_INFO','Ovaj izveštaj omagućava pravljenje pivot tabela za odabrani entitet. Po kreiranju izveštaja, odaberi polja za izveštaj. Pored odabranih polja, možete kreirati sopstvene proračune u izveštaju. <a href="https://docs.rukovoditel.net/index.php?p=106" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_REPORT_IS_OUTDATED','Ovaj izveštaj je zastareo i više neće biti podržan. Preporučeno je da se pređe na <a href="%s">novu verziju izveštaja</a>.');
+define('TEXT_EXT_PIE_CHART', 'Grafik "pita"');
+define('TEXT_EXT_BAR_CHART', 'Grafik "šipke"');
+define('TEXT_EXT_COLUMN_CHART', 'Grafik "kolone"');
+define('TEXT_EXT_LINE_CHART', 'Grafik "linije"');
+define('TEXT_EXT_PYRAMID_CHART', 'Grafik "piramida"');
+define('TEXT_EXT_PROCESS_ACTION_SAVE_EXPORT_TEMPLATE','Entitet "%s"  - snimi šablon za izvoz');
+define('TEXT_EXT_SELECT_TEMPLATES_TO_SAVE','Odaberi ženjeni šablon za određeno polje. <a href="https://docs.rukovoditel.net/index.php?p=109" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_EXT_ATTACH_ATTACHMENTS_TO_EMAIL_INFO','U tekstu poruke, dodaj polja iz kojih se dodaju prilozi.');
+define('TEXT_EXT_ATTACH_TEMPLATE','Priloži šablon');
+define('TEXT_EXT_EXPORT_TEMPLATE_TYPE_HTML_CODE_INFO','Priprema šablona upotrebom samo HTML koda');
+define('TEXT_EXT_LABEL','Natpis');
+define('TEXT_EXT_EXPORT_TEMPLATE_TYPE_LABEL_INFO','Da odštampate natpis određene veličine');
+define('TEXT_EXT_LABEL_SIZE','Veličina natpisa');
+define("TEXT_EXT_ENTER_SIZE_IN_MM",'Unesi veličinu u milimetrima');
+
+
+
+
+
+
+
+
+
+
+

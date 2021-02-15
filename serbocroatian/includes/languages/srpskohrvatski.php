@@ -1,10 +1,10 @@
 <?php  
 /**
  * Set language short cooe here (ISO 639-1 Code)
- * See Language Code Reference sr (sr-Latin-rs) SPPSKOHTVATSKI
+ * See Language Code Reference sr (sr-Cyrl-rs) SRPSKI
  * http://www.w3schools.com/tags/ref_language_codes.asp
  */  
-define('APP_LANGUAGE_SHORT_CODE','sh'); 
+define('APP_LANGUAGE_SHORT_CODE','sr'); 
 
 /**
  * Set the text direction: (ltr or rtl)
@@ -29,7 +29,7 @@ define('TEXT_FIELDTYPE_CHECKBOXES_TITLE','Čekboks');
 define('TEXT_FIELDTYPE_RADIOBOXES_TITLE','Radioboks');
 define('TEXT_FIELDTYPE_FORMULA_TITLE','MySQL formula');
 define('TEXT_FIELDTYPE_USERS_TITLE','Korisnici');
-define('TEXT_FIELDTYPE_GROUPEDUSERS_TITLE','Gruoisani korisnici');
+define('TEXT_FIELDTYPE_GROUPEDUSERS_TITLE','Grupisani korisnici');
 define('TEXT_FIELDTYPE_ENTITY_TITLE','Entitet');
 define('TEXT_FIELDTYPE_ACTION_TITLE','Akcija');
 define('TEXT_FIELDTYPE_ID_TITLE','ID');
@@ -71,7 +71,7 @@ define('TEXT_FIELDTYPE_PROGRESS_TOOLTIP','Automatski kreira listu od 1 do 100');
 define('TEXT_BUTTON_LOGIN','Prijava');
 define('TEXT_BUTTON_SAVE','Snimi');
 define('TEXT_BUTTON_CLOSE','Zatvori');
-define('TEXT_BUTTON_EDIT','Izmena');
+define('TEXT_BUTTON_EDIT','Iѕmena');
 define('TEXT_BUTTON_DELETE','Obriši');
 define('TEXT_BUTTON_CHANGE','Promeni');
 define('TEXT_BUTTON_ADD_FORM_TAB','Dodaj novu karticu');
@@ -671,7 +671,7 @@ define('TEXT_USE_GLOBAL_LIST','Koristi globalnu listu');
 define('TEXT_USE_GLOBAL_LIST_TOOLTIP','Vrednosti iz izabrane liste će se koristiti za ovo polje.');
 define('TEXT_BUTTON_CANCEL','Otkaži');
 define('TEXT_NUMBER_FORMAT','Format brojeva');
-define('TEXT_NUMBER_FORMAT_INFO','Unesi: broj decimalnih mesta (0-9) / decimalni separator / separator za hiljade. Važeće vrednosti za separator: tačka, zarez, blank ili simbol * što znači da separator nije primenljiv.<br>Ako se ne koristi format broja, ostaviti polje prazno');
+define('TEXT_NUMBER_FORMAT_INFO','Unesi: broj decimalnih mesta (0-9) / decimalni separator / separator za hiljade. Važeće vrednosti za separator: tačka, zarez, blank ili simbol * što znači da separator nije primenljiv.<br>Ako se ne koristi format broja, polje ostaviti prazno');
 define('TEXT_NUMBER_FORMAT_INFO_NOTE','Napomena: Ovaj format se podrazumevano koristi kada kreirate novo numeričko polje. Za prikaz broja numeričko polje koristi pojedinačne postavke');
 define('TEXT_BUTTON_SEND_TEST_EMAIL','Pošalji test e-poštu');
 define('TEXT_EMAIL_USE_SMTP_INFO','Pre uključivanja SMTP-a možete poslati test e-poštu. E-pošta sa porukom "%s" biće poslata na: %s');
@@ -1552,7 +1552,6 @@ define('TEXT_CODE_FROM_SMS_INFO','Poslata vam je poruka sa kodom na telefon %s')
 define('TEXT_MAIN_FEATURES','Glavne mogućnosti');
 define('TEXT_EXT_FEATURES_LIST','Kalendar,Gantogram,Funnel karta,Kanban tabla,Pivot tabela,Onlajn ćaskanje,Tiketi putem e-pošte,Telefonija,SMS,API');
 define('TEXT_FULL_LIST_OF_FEATURES','Pun spisak mogućnosti');
-
 //new defines for version 2.7
 define('TEXT_FIELDTYPE_BARCODE_ACCEPTED_TYPE_TIP','Različiti tipovi podržavaju različite setove karaktera ili imaju fiksne dužine. Pogledajte Vikipediju za podržane karaktere i dužine istih po tipu. Najkorišćeniji tipovi su CODE_128 i CODE_39, zbog najbolje podrške skenera, varijabilne dužine i podrške najvećem broju karaktera.');
 define('TEXT_OVERDUE_DATE_WITH_TIME','Prekoračeni datumi sa vremenom');
@@ -1590,7 +1589,7 @@ define('TEXT_USER_ACTIVATION_EMAIL_BODY','Prijavite se u aplikaciju ovim linkom 
 define('TEXT_EMAIL_VERIFICATION_EMAIL_SUBJECT','Verifikacija E-pošte');
 define('TEXT_EMAIL_VERIFICATION_EMAIL_BODY','
 <p>Zdravo,<br>
-Primili ste ovu poruku jer ste uneli adresu E-pošte kada ste se registrovali na sajtu"<a href="' . url_for('users/login','',true) . '">' . CFG_APP_NAME . '</a>".</p>
+Primoli ste ovu poruku jer ste uneli adresu E-pošte kada ste se registrovali na sajtu"<a href="' . url_for('users/login','',true) . '">' . CFG_APP_NAME . '</a>".</p>
 <p>Moramo biti sigurni da ste vi vlasnik ove adrese E-pošte.</p>
 <p>Da potvrdite vašu adresu, unesite sledeći kod: <b>%s</b></p>
 <p><small>Ova poruka je poslata automatski.<br>
@@ -1634,4 +1633,93 @@ define('TEXT_NUMBER_OF_RECORDS','Broj zapisa');
 define('TEXT_TOTAL','Ukupno');
 define('TEXT_ERROR_REQUIRED_URL','Molim unesite validan URL.');
 define('TEXT_EXTENSION_REQUIRED_URL','<a href="https://www.rukovoditel.net/extension.php" target="_blank">' . TEXT_EXTENSION_REQUIRED . '</a>');
+
+//new defines for version 2.8
+define('TEXT_JS_CODE','JS kod');
+define('TEXT_CODE_ON_ITEM_PAGE','Unešeni kod će biti uvršten na stranici zapisa. <a href="https://docs.rukovoditel.net/index.php?p=66" target="_blank"><u>Read more.</u></a>');
+define('TEXT_FIELDTYPE_PHP_CODE_TITLE','PHP kod');
+define('TEXT_FIELDTYPE_PHP_CODE_TOOLTIP','Poseban tip polja koji omogućava pokretanje vašeg PHP koda. <a href="https://docs.rukovoditel.net/index.php?p=104" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_RUN_DYNAMIC','Izvrši dinamiči');
+define('TEXT_FIELDTYPE_PHP_CODE_RUN_DYNAMIC_INFO','Podrazumevano, kod se izvršava prilikom dodavanja/izmene zapisa. Postavljanjem ove opcije, kod će se izvršavati priliko mregleda zapisa.');
+define('TEXT_FIELDTYPE_PROCESS_BUTTON_TITLE','Taster procesa');
+define('TEXT_FIELDTYPE_PROCESS_BUTTON_TOOLTIP','Poseban tip polja koji se može koristiti za prikaz tastera na listi zapisa. <a href="https://docs.rukovoditel.net/index.php?p=105" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_FIELDTYPE_VIDEO_TITLE','Video');
+define('TEXT_FIELDTYPE_VIDEO_TOOLTIP','Polje za unos url-a sa servisa YouTube ili Vimeo. Možete uneti i direktan link na video fajl (.mp4 .ogg .webm).');
+define('TEXT_VIDEO_PLAYER','Video plejer');
+define('TEXT_VIDEO_TAG_NOT_SUPPORTED','Vaš pregledač ne podržava video tag.');
+define('TEXT_BUTTON_DISPLAYS_IN_LISTING','The button is displays in records listing');
+define('TEXT_HIDE_VIDEO_PLAYER','Sakri video plejer na stranici zapisa');
+define('TEXT_FIELDTYPE_INPUT_ENCRYPTED_TITLE','Enkriptovano polje za unos');
+define('TEXT_HIDE_VALUE','Sakri vrednost');
+define('TEXT_FIELDTYPE_INPUT_ENCRYPTED_TOOLTIP','Uneta vrednost se skladišti enkriptovana u bazi podataka. Podatak se kriptuje upotrebom specijalnog ključa.');
+define('TEXT_ENCRYPTION_KEY','Ključ enkripcije');
+define('TEXT_ENCRYPTION_KEY_INFO','Za dodavanje ključa enkripcije otvori <code>config/server.php</code> fajl i <br>
+unesi sledeću liniju na kraju fajla: <code>define(\'DB_ENCRYPTION_KEY\',\'moj_ključ`\');</code><br>
+Imesto <code>moj_ključ</code>, unesi ključ.<br>
+<b>Napomena:</b> ne možete promeniti ključ za postojeće podatke. To će rezutirati gubitkom podataka..');
+define('TEXT_FIELDTYPE_TEXTAREA_ENCRYPTED_TITLE','Enkriptovana oblast teksta');
+define('TEXT_ENCRYPTION_KEY_ERROR','Greška: polje "%s" zakteva ključ enkripcije. Proveri podešavanje polja.');
+define('TEXT_ADD_ROW','Dodaj red');
+define('TEXT_ROW','Red');
+define('TEXT_COUNT_OF_COLUMNS','Broj kolona');
+define('TEXT_COLUMN_WIDHT','Širina kolone');
+define('TEXT_PREVIEW','Pregled');
+define('TEXT_FORMS_ROWS_INFO','Po dodavanju reda, pomeri polja u kolone. Obrati pažnju: širina polja je jednaka širini kolone.');
+define('TEXT_FIELD_NAME_IN_NEW_ROW','Naziv polja u novom redu');
+define('TEXT_CONFIRM','Potvrdi');
+define('TEXT_STEP','Korak');
+define('TEXT_FAVICON','Ikona');
+define('TEXT_ONE_COLUMN_TABS','Jedna kolona (Tabovi)');
+define('TEXT_ONE_COLUMN_ACCORDION','Jedna kolona (Harmonika)');
+define('TEXT_WINDOW_WIDTH','Širina prozora');
+define('TEXT_WIDE','Široko');
+define('TEXT_XWIDE','Veoma široko');
+define('TEXT_FIELDTYPE_JALALI_CALENDAR_TITLE','Jalali kalendar');
+define('TEXT_FIELDTYPE_JALALI_CALENDAR_TOOLTIP','Jalali kalendar je solarni kalendar koji je još u upotrebi u Iranu kao i u Avganistanu. Birač datuma se automatski dodaje ovom polju.');
+define('TEXT_PLAY_AUDIO_FILE','Pusti audio fajl');
+define('TEXT_VALIDATE_URL','Proveri url');
+define('TEXT_DATE_FORMAT_IN_CALENDAR','Format datuma u kalendaru');
+define('TEXT_FIELDTYPE_SUBENTITY_FORM_TITLE','Forma podentiteta');
+define('TEXT_FIELDTYPE_SUBENTITY_FORM_TOOLTIP','Ovaj tip polja omogućava da u formu nadređenog entiteta ugradite formu podentiteta. Ovo znači da kada se dodaje zapis u nadređeni entitet, istovremeno se dodaje i žapis u podentitet. <a href="https://docs.rukovoditel.net/index.php?p=107" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_SUB_ENTITY','Podentitet');
+define('TEXT_FIELDS_DISPLAY','Prikaz polja');
+define('TEXT_INTO_COLUMN','U koloni');
+define('TEXT_INTO_ROW','U redu');
+define('TEXT_IN_NEW_WINDOW','U novom prozoru');
+define('TEXT_FIELDS_IN_FORM','Polja u formi');
+define('TEXT_FIELS_DISPLAY_IN_FOR_TYPE_ROW','Sa ovim prikazom, moće je koristiti ograničen broj polja. Pravila za prikaz polja u formi nisu podržana.');
+define('TEXT_FIELS_DISPLAY_IN_FOR_TYPE_NEW_WINDOW','Klik na dugme otvara formu u svom prozoru. Tada su sva polja podržana.');
+define('TEXT_FIELDS_IN_LISTING_ON_FORM_PAGE','Dodati zapisi su prikazani u listingu tabele na strani forme.');
+define('TEXT_ENTER_COLUMN_WIDHT_BY_COMMA','Unesi širinu za svaku kolonu u obliku procenta, razdvojeno zarezima.<br>Na primer: 50,25,25');
+define('TEXT_MAX_COUNT_RECORDS','Maksimalan broj zapisa');
+define('TEXT_SHOW_NUMBER_OF_RECORDS','Prikaži broj zapisa');
+define('TEXT_MAX_COUNT_RECORDS_IN_FORM_INFO','Ograničava broj zapisa u formi');
+define('TEXT_INSERT_RECORD_AUTOMATICALLY','Automatski unos zapisa');
+define('TEXT_INSERT_RECORD_AUTOMATICALLY_INFO','Unesi broj zapisa koji se automatski dodaju na formu.');
+define('TEXT_PDF_EXPORT_FONTS','Font za izvoz u pdf');
+define('TEXT_PDF_EXPORT_FONTS_INFO','Biblioteka <a href="https://github.com/dompdf/dompdf" target="_blank">Dompdf</a> se koristi za izvoz podataka u PDF format. Na ovoj strani možete dodati sopstvene fontove koji mogu biti korišćeni u šablonima za izvoz. <a href="https://docs.rukovoditel.net/index.php?p=108" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_FONTS_FOLDER','Folder sa fontovima');
+define('TEXT_ERRROR_FILE_NOT_WRITABLE','Greška: u fajlu "%s" se ne može pisati!');
+define('TEXT_ROTATE','Rotiraj');
+define('TEXT_CREATE_ATTACHMENTS_PREVIEW','Kreiraj poseban fajl za pregled slika');
+define('TEXT_CREATE_ATTACHMENTS_PREVIEW_TIP','Koristi se ako je opcija "pregled" postavljena za polje "Prilozi"');
+define('TEXT_FOLDER','Folder');
+define('TEXT_FIELDTYPE_INPUT_IP_TITLE','IPv4 adresa');
+define('TEXT_FIELDTYPE_INPUT_IP_TOOLTIP','Polje za unos IPv4 adrese. U bazi podataka, vrednost se skladišti kao broj.');
+define('TEXT_FIELDTYPE_INPUT_DYNAMIC_MASK_TITLE','Polje sa dinamičnom maskom za unos');
+define('TEXT_FIELDTYPE_INPUT_DYNAMIC_MASK_TOOLTIP','Omogućava kreaciju maske za unos podataka koji nemaju fiksnu dužinu. Moguće je dodati i vlastiti  JavaScript kod za definisanje maske. Korišćena  je sledeća biblioteka: <a href="https://github.com/RobinHerbots/Inputmask" target="_blank">github.com/RobinHerbots/Inputmask</a>');
+define('TEXT_FIELDTYPE_INPUT_DYNAMIC_MASK_INFO','Za definisanje dinamičkog dela, koristi konstrukciju {n, m} - što znači da simbol može biti ponovljen od  n do m puta.');
+define('TEXT_FIELDTYPE_INPUT_DYNAMIC_MASK_OPTIONAL_INFO','Za definisanje opcionog dela, koristi konstrukciju [a] - što znači da karakter može biti izostavljen.');
+define('TEXT_BARCODE','Barkod');
+define('TEXT_ENTER_TEXT_PATTERN_DEATE_INFO','${Ymd} - trenutni datum: ' . date('Ymd') . ' (<a href="https://www.php.net/manual/en/datetime.format.php" target="_blank">format datuma</a> može biti podešen)');
+define('TEXT_BARCODE_GENERATED_AUTOMATICALLY','Automatski generisan barkod');
+define('TEXT_FIELDTYPE_RANDOM_VALUE_UNIQUE_TOOLTIP','Svaka vrednost je jedinstvena za ovaj entitet.');
+define('TEXT_SCANNING_BARCODE','Skeniranje bar koda');
+define('TEXT_SSL_REQUIRED','SSL je obavezan');
+define('TEXT_CAMERA','Kamera');
+
+
+
+
+
 

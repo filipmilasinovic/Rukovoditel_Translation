@@ -1692,7 +1692,7 @@ define('TEXT_FIELS_DISPLAY_IN_FOR_TYPE_NEW_WINDOW','Клик на дугме о�
 define('TEXT_FIELDS_IN_LISTING_ON_FORM_PAGE','Додати записи су приказани у листингу табеле на страни форме.');
 define('TEXT_ENTER_COLUMN_WIDHT_BY_COMMA','Унеси ширину за сваку колону у облику процента, раздвојено зарезима.<br>На пример: 50,25,25');
 define('TEXT_MAX_COUNT_RECORDS','Максималан број записа');
-define('TEXT_SHOW_NUMBER_OF_RECORDS','Show number of records');
+define('TEXT_SHOW_NUMBER_OF_RECORDS','Прикажи број записа');
 define('TEXT_MAX_COUNT_RECORDS_IN_FORM_INFO','Ограничава број записа у форми');
 define('TEXT_INSERT_RECORD_AUTOMATICALLY','Аутоматски унос записа');
 define('TEXT_INSERT_RECORD_AUTOMATICALLY_INFO','Унеси број записа који се аутоматски додају на форму.');
@@ -1705,7 +1705,7 @@ define('TEXT_CREATE_ATTACHMENTS_PREVIEW','Креирај посебан фајл
 define('TEXT_CREATE_ATTACHMENTS_PREVIEW_TIP','Користи се ако је опција "преглед" постављена за поље "Прилози"');
 define('TEXT_FOLDER','Фолдер');
 define('TEXT_FIELDTYPE_INPUT_IP_TITLE','IPv4 адреса');
-define('TEXT_FIELDTYPE_INPUT_IP_TOOLTIP','Поље за унос IPv4 адресе. У бази података, вредност се кладишти као број.');
+define('TEXT_FIELDTYPE_INPUT_IP_TOOLTIP','Поље за унос IPv4 адресе. У бази података, вредност се складишти као број.');
 define('TEXT_FIELDTYPE_INPUT_DYNAMIC_MASK_TITLE','Поље са динамичном маском за унос');
 define('TEXT_FIELDTYPE_INPUT_DYNAMIC_MASK_TOOLTIP','Омогућава креацију маске за унос података који немају фиксну дужину. Могуће је додати и властити  JavaScript код за дефинисанје маске. Коришћена  је следећа библиотека: <a href="https://github.com/RobinHerbots/Inputmask" target="_blank">github.com/RobinHerbots/Inputmask</a>');
 define('TEXT_FIELDTYPE_INPUT_DYNAMIC_MASK_INFO','За дефинисанје динамичког дела, користи конструкцију {n, m} - што значи да симбол може бити поновлјен од  n до m пута.');
