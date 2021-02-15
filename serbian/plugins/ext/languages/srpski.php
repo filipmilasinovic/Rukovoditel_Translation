@@ -809,43 +809,43 @@ define('TEXT_EXT_EXPORT_TEMPLATES_ENTITY_BLOCK_TIP','За приказ пода�
 define('TEXT_EXT_EXPORT_TEMPLATES_TABLE_LIST_BLOCK_TIP','За приказ табеле, додај колоне. Свака колона може приказати више поља.');
 
 //new defines for ext 2.8
-define('TEXT_EXT_SEND_TO_RELATED_ENTITY','Send to a number in a linked entity');
-define('TEXT_EXT_DHTMLXGANTT_PRO_INFO','The settings on this page are only available in the professional edition of <a href="https://dhtmlx.com/docs/products/dhtmlxGantt/download.shtml" target="_new">dhtmlxGantt</a>.<br>To install dhtmlxGantt PRO, copy the /codebase folder from the installation archive to /js/dhtmlxGantt/Pro/');
-define('TEXT_EXT_GANTT_INFO','You have the ability to bind a Gantt chart to any entity with Start Date and End Date fields. <a href="https://docs.rukovoditel.net/index.php?p=36" target="_blank"><u>Read more.</u></a><br>
-The standard version of the <a href="https://dhtmlx.com/docs/products/dhtmlxGantt/" target="_new"><u>dhtmlxGantt</u></a> library is used to build the Gantt chart.');
-define('TEXT_EXT_AUTO_SCHEDULING','Auto Scheduling');
-define('TEXT_EXT_AUTO_SCHEDULING_INFO','Gives Gantt the ability to schedule tasks automatically depending on relations between them. <a href="https://docs.dhtmlx.com/gantt/desktop__auto_scheduling.html" target="_blank"><u>Read more.</u></a>');
-define('TEXT_EXT_HIGHLIGHT_CRITICAL_PATH','Highlight critical path');
-define('TEXT_EXT_HIGHLIGHT_CRITICAL_PATH_INFO','A critical path is a sequence of tasks that can\'t be delayed. <a href="https://docs.dhtmlx.com/gantt/desktop__critical_path.html" target="_blank"><u>Read more.</u></a>');
-define('TEXT_EXT_HIDE_ZERO_VALUES','Hide zero values');
-define('TEXT_EXT_SELECT_BUTTONS_TO_DISPLAY','Select one or more buttons to display');
-define('TEXT_EXT_MULTIPLE_BUTTONS_DISPLAY_TYPE','Select the type of display for multiple buttons');
-define('TEXT_EXT_IN_RECORD_PAGE','On the record page');
-define('TEXT_EXT_IN_LISTING','In records listing');
-define('TEXT_EXT_BUTTON_GROUP','Button group');
-define('TEXT_EXT_CLEAR_EMAIL_ACCOUNT','Clear email account');
-define('TEXT_EXT_CLEAR_EMAIL_ACCOUNT_CONFIRM','All emails associated with the "<b>%s</b>" account will be deleted.');
-define('TEXT_EXT_RECORDS_DELETED','Records deleted');
-define('TEXT_EXT_DELETED','Deleted');
-define('TEXT_EXT_EVENT_LIMIT','Event limit');
-define('TEXT_EXT_EVENT_LIMIT_INFO','Limits the number of events displayed on a day (for Day and Week modes). The rest will show up in a popover.');
-define('TEXT_EXT_PIVOT_TABLES','Pivot Tables PRO');
-define('TEXT_EXT_PIVOT_TABLES_INFO','This report allows you to build a pivot table for the selected entity. After creating the report, select the fields for the report. In addition to the selected fields, you can create your own calculations in the report. <a href="https://docs.rukovoditel.net/index.php?p=106" target="_blank"><u>Read more.</u></a>');
-define('TEXT_REPORT_IS_OUTDATED','This report is outdated and will no longer be supported. It is recommended to switch to the <a href="%s">new version of the report</a>.');
-define('TEXT_EXT_PIE_CHART', 'Pie chart');
-define('TEXT_EXT_BAR_CHART', 'Bar');
-define('TEXT_EXT_COLUMN_CHART', 'Column');
-define('TEXT_EXT_LINE_CHART', 'Line chart');
-define('TEXT_EXT_PYRAMID_CHART', 'Pyramid');
-define('TEXT_EXT_PROCESS_ACTION_SAVE_EXPORT_TEMPLATE','Entity "%s"  - save template to export');
-define('TEXT_EXT_SELECT_TEMPLATES_TO_SAVE','Select templates which you want to attach to specific field. <a href="https://docs.rukovoditel.net/index.php?p=109" target="_blank"><u>Read more.</u></a>');
-define('TEXT_EXT_ATTACH_ATTACHMENTS_TO_EMAIL_INFO','In the message text, add the fields from which you want to attach attachments.');
-define('TEXT_EXT_ATTACH_TEMPLATE','Attach template');
-define('TEXT_EXT_EXPORT_TEMPLATE_TYPE_HTML_CODE_INFO','Preparing a template using only HTML code');
-define('TEXT_EXT_LABEL','Label');
-define('TEXT_EXT_EXPORT_TEMPLATE_TYPE_LABEL_INFO','To print labels with a specified size');
-define('TEXT_EXT_LABEL_SIZE','Label size');
-define("TEXT_EXT_ENTER_SIZE_IN_MM",'Enter the size in millimeters');
+define('TEXT_EXT_SEND_TO_RELATED_ENTITY','Пошаљи у број у повезаном ентитету');
+define('TEXT_EXT_DHTMLXGANTT_PRO_INFO','Подешавања на овој страни су расположива само у професионалној верзији библиотеке <a href="https://dhtmlx.com/docs/products/dhtmlxGantt/download.shtml" target="_new">dhtmlxGantt</a>.<br>За инсталацију dhtmlxGantt PRO, копирај /codebase фолдер из инсталационе архиве у /js/dhtmlxGantt/Pro/');
+define('TEXT_EXT_GANTT_INFO','Имате могућност повезивзнјз гантограма и било ког ентитета са пољима почетни (Start Date) и крајнји датум (End Date). <a href="https://docs.rukovoditel.net/index.php?p=36" target="_blank"><u>Прочитај више.</u></a><br>
+Стандардна верзија библиотеке <a href="https://dhtmlx.com/docs/products/dhtmlxGantt/" target="_new"><u>dhtmlxGantt</u></a> се користи за приказ гантограма.');
+define('TEXT_EXT_AUTO_SCHEDULING','Аутоматско заказивање');
+define('TEXT_EXT_AUTO_SCHEDULING_INFO','Даје Гантограму могућност аутоматског заказивања задатака у зависности од њихових међусобних односа. <a href="https://docs.dhtmlx.com/gantt/desktop__auto_scheduling.html" target="_blank"><u>Прочитај више.</u></a>');
+define('TEXT_EXT_HIGHLIGHT_CRITICAL_PATH','Означи критичну пурању');
+define('TEXT_EXT_HIGHLIGHT_CRITICAL_PATH_INFO','Критична путања је низ задатака који је нераздвојан. <a href="https://docs.dhtmlx.com/gantt/desktop__critical_path.html" target="_blank"><u>Прочитај више.</u></a>');
+define('TEXT_EXT_HIDE_ZERO_VALUES','Сакриј нулте вредности');
+define('TEXT_EXT_SELECT_BUTTONS_TO_DISPLAY','Одабери један или више тастера за проказ');
+define('TEXT_EXT_MULTIPLE_BUTTONS_DISPLAY_TYPE','Одабери тип приказа за више тастера');
+define('TEXT_EXT_IN_RECORD_PAGE','На страници записа');
+define('TEXT_EXT_IN_LISTING','У листингу записа');
+define('TEXT_EXT_BUTTON_GROUP','Група тастера');
+define('TEXT_EXT_CLEAR_EMAIL_ACCOUNT','Очисти налог е-поште');
+define('TEXT_EXT_CLEAR_EMAIL_ACCOUNT_CONFIRM','Све е-поруке повезане са налогом "<b>%s</b>" ће бити обрисане.');
+define('TEXT_EXT_RECORDS_DELETED','Записа обрисано');
+define('TEXT_EXT_DELETED','Обрисано');
+define('TEXT_EXT_EVENT_LIMIT','Лимит догађаја');
+define('TEXT_EXT_EVENT_LIMIT_INFO','Лимитира број догађаја приказаних по дану (У моду Дан у недељи). Остали ће се приказати у попап прозору.');
+define('TEXT_EXT_PIVOT_TABLES','Пивот табеле ПРО');
+define('TEXT_EXT_PIVOT_TABLES_INFO','Овај извештај омагућава прављење пивот табела за одабрани ентитет. По креирању извештаја, одабери поља за извештај. Поред одабраних поља, можете креирати сопствене прорачуне у извештају. <a href="https://docs.rukovoditel.net/index.php?p=106" target="_blank"><u>Прочитај више.</u></a>');
+define('TEXT_REPORT_IS_OUTDATED','Овај извештај је застарео и више неће бити подржан. Препоручено је да се пређе на <a href="%s">нову верзију извештаја</a>.');
+define('TEXT_EXT_PIE_CHART', 'График "пита"');
+define('TEXT_EXT_BAR_CHART', 'График "шипке"');
+define('TEXT_EXT_COLUMN_CHART', 'График "колоне"');
+define('TEXT_EXT_LINE_CHART', 'График "линије"');
+define('TEXT_EXT_PYRAMID_CHART', 'График "пирамида"');
+define('TEXT_EXT_PROCESS_ACTION_SAVE_EXPORT_TEMPLATE','Ентитет "%s"  - сними шаблон за извоз');
+define('TEXT_EXT_SELECT_TEMPLATES_TO_SAVE','Одабери жењени шаблон за одређено поље. <a href="https://docs.rukovoditel.net/index.php?p=109" target="_blank"><u>Прочитај више.</u></a>');
+define('TEXT_EXT_ATTACH_ATTACHMENTS_TO_EMAIL_INFO','У тексту поруке, додај поља из којих се додају прилози.');
+define('TEXT_EXT_ATTACH_TEMPLATE','Приложи шаблон');
+define('TEXT_EXT_EXPORT_TEMPLATE_TYPE_HTML_CODE_INFO','Припрема шаблона употребом само HTML кода');
+define('TEXT_EXT_LABEL','Натпис');
+define('TEXT_EXT_EXPORT_TEMPLATE_TYPE_LABEL_INFO','Да одштампате натпис одређене величине');
+define('TEXT_EXT_LABEL_SIZE','Величина натписа');
+define("TEXT_EXT_ENTER_SIZE_IN_MM",'Унеси величину у милиметрима');
 
 
 
