@@ -13,15 +13,15 @@ define('TEXT_EXT_LICENSE_KEY_INFO','Nakon postavljanja Vaše narudžbe, možete 
 define('TEXT_EXT_PRODUCT_KEY_NOT_CORRECT','Ključ licence nije pogodan za domen:');
 define('TEXT_EXT_LICENSE_ACTIVE','Licencni ključ je aktivan za domen:');
 
-define('TEXT_EXT_SALENDAR','Kalendar');
-define('TEXT_EXT_MY_SALENDAR','Moj kalendar');
-define('TEXT_EXT_SALENDAR_PERSONAL','Lični kalendar');
-define('TEXT_EXT_SALENDAR_PERSONAL_ACCESS','Izaberite grupe korisnika koje će imati pristup vašem ličnom kalendaru.');
-define('TEXT_EXT_SALENDAR_PUBLIC','Opšti kalendar');
-define('TEXT_EXT_SALENDAR_PUBLIC_ACCESS','Izaberite grupu korisnika koji će imati pristup vašem opštem kalendaru.');
-define('TEXT_EXT_SALENDAR_REPORTS','Kalendarski izveštaji');
-define('TEXT_EXT_SALENDAR_START_DATE','Početni datum');
-define('TEXT_EXT_SALENDAR_END_DATE','Krajnji datum');
+define('TEXT_EXT_СALENDAR','Kalendar');
+define('TEXT_EXT_MY_СALENDAR','Moj kalendar');
+define('TEXT_EXT_СALENDAR_PERSONAL','Lični kalendar');
+define('TEXT_EXT_СALENDAR_PERSONAL_ACCESS','Izaberite grupe korisnika koje će imati pristup vašem ličnom kalendaru.');
+define('TEXT_EXT_СALENDAR_PUBLIC','Opšti kalendar');
+define('TEXT_EXT_СALENDAR_PUBLIC_ACCESS','Izaberite grupu korisnika koji će imati pristup vašem opštem kalendaru.');
+define('TEXT_EXT_СALENDAR_REPORTS','Kalendarski izveštaji');
+define('TEXT_EXT_СALENDAR_START_DATE','Početni datum');
+define('TEXT_EXT_СALENDAR_END_DATE','Krajnji datum');
 define('TEXT_EXT_HEADING_EVENTS_INFO','Podaci o događaju');
 define('TEXT_EXT_EVENT_NAME','Naziv događaja');
 define('TEXT_EXT_EVENT_START_DATE','Datum početka');
@@ -668,11 +668,11 @@ define('TEXT_EXT_MAIL_ENTITIES_RULES_INFO','Postavi pravila pod kojim će se aut
 //new defines for ext 2.6
 define('TEXT_EXT_IPAGES_ACCESS_CONFIGURATION','Odaberi korisnike koji mogu upravljati inforamcionim stranicama.');
 define('TEXT_IPAGE_DESCRIPTION_TIP','Za ubacivanje slike u tekst, samo je prevuci u opis.<br>Ime priložene datoteke u opisu se automatski konvertuje u link ka datoteci.');
-define('TEXT_EXT_PIVOT_SALENDAR','Izvedeni kalendar');
-define('TEXT_EXT_PIVOT_SALENDAR_INFO','Ova vrsta izveštaja omogućava kombinovanje više entiteta u jedan kalendar. Po kreiranju izveštaja, traženi entiteti se dodaju klikom na ime. <a href="https://docs.rukovoditel.net/index.php?p=91" target="_blank"><u>Opširnije.</u></a>');
+define('TEXT_EXT_PIVOT_СALENDAR','Izvedeni kalendar');
+define('TEXT_EXT_PIVOT_СALENDAR_INFO','Ova vrsta izveštaja omogućava kombinovanje više entiteta u jedan kalendar. Po kreiranju izveštaja, traženi entiteti se dodaju klikom na ime. <a href="https://docs.rukovoditel.net/index.php?p=91" target="_blank"><u>Opširnije.</u></a>');
 define('TEXT_EXT_DISPLYA_IN_MAIN_MENU','Prikaži u glavnom meniju');
 define('TEXT_EXT_DISPLYA_IN_MAIN_MENU_TIP','Podrazumevano, izveštaj je prikazan u sekciji "Izveštaji".');
-define('TEXT_EXT_PIVOT_SALENDAR_ENTITIES_INFO','Dodaj tražene entitete. Traženi filteri se za svaki entitet postavljaju klikom na ime tog entiteta.');
+define('TEXT_EXT_PIVOT_СALENDAR_ENTITIES_INFO','Dodaj tražene entitete. Traženi filteri se za svaki entitet postavljaju klikom na ime tog entiteta.');
 define('TEXT_EXT_DISPLAY_ENTITY_NAME','Prikaži ime entiteta');
 define('TEXT_EXT_ITEM_PIVOT_TABLES','Stavka izvedene tabele');
 define('TEXT_EXT_ITEM_PIVOT_TABLES_INFO','Ova vrsta izveštaja omogućava pravljenje izvedene tabele za povezane zapise i prikazivanje iste direktno na info stranici stavke. Po kreiranju izveštaja, ženjene računice se dodaju klikom na ime. <a href="https://docs.rukovoditel.net/index.php?p=86" target="_blank"><u>Opširnije.</u></a>');
