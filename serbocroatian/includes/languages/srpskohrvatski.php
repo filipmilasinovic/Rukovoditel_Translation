@@ -71,7 +71,7 @@ define('TEXT_FIELDTYPE_PROGRESS_TOOLTIP','Automatski kreira listu od 1 do 100');
 define('TEXT_BUTTON_LOGIN','Prijava');
 define('TEXT_BUTTON_SAVE','Snimi');
 define('TEXT_BUTTON_CLOSE','Zatvori');
-define('TEXT_BUTTON_EDIT','Iѕmena');
+define('TEXT_BUTTON_EDIT','Izmena');
 define('TEXT_BUTTON_DELETE','Obriši');
 define('TEXT_BUTTON_CHANGE','Promeni');
 define('TEXT_BUTTON_ADD_FORM_TAB','Dodaj novu karticu');
