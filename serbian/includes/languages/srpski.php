@@ -71,7 +71,7 @@ define('TEXT_FIELDTYPE_PROGRESS_TOOLTIP','Аутоматски креира ли
 define('TEXT_BUTTON_LOGIN','Пријава');
 define('TEXT_BUTTON_SAVE','Сними');
 define('TEXT_BUTTON_CLOSE','Затвори');
-define('TEXT_BUTTON_EDIT','Иѕмена');
+define('TEXT_BUTTON_EDIT','Измена');
 define('TEXT_BUTTON_DELETE','Обриши');
 define('TEXT_BUTTON_CHANGE','Промени');
 define('TEXT_BUTTON_ADD_FORM_TAB','Додај нову картицу');
