@@ -412,7 +412,7 @@ define('TEXT_REPORT_NOT_FOUND','Izveštaj nije pronađen!');
 define('TEXT_FIELD','Polje');
 define('TEXT_VALUES','Vrednosti');
 define('TEXT_HEADING_REPORTS_FILTER_IFNO','Informacije o filteru');
-define('TEXT_SELECT_FIELD','Oda polje');
+define('TEXT_SELECT_FIELD','Odaberi polje');
 define('TEXT_WARN_DELETE_FILTER_SUCCESS','Filter obisan');
 define('TEXT_WARN_DELETE_ALL_FILTERS_SUCCESS','Filteri obisani');
 define('TEXT_FILTERS_CONDITION','Uslov');
