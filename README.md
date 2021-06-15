@@ -3,4 +3,4 @@ Serbian (Serbian cyrilic) and Serbocroatioan (Serbian latin) translations of Ruk
 
 - Official Rukovoditel website: [https://www.rukovoditel.net/](https://www.rukovoditel.net/)
 
-At the moment only zip files are up tp date
+At the moment only zip files are up to date
