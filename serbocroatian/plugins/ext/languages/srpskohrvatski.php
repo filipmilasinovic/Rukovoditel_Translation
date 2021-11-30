@@ -847,6 +847,30 @@ define('TEXT_EXT_EXPORT_TEMPLATE_TYPE_LABEL_INFO','Da odštampate natpis određe
 define('TEXT_EXT_LABEL_SIZE','Veličina natpisa');
 define("TEXT_EXT_ENTER_SIZE_IN_MM",'Unesi veličinu u milimetrima');
 
+//new defines for ext 2.9
+define('TEXT_EXT_PUBLIC_ACCESS','Javni pristup');
+define('TEXT_EXT_PUBLIC_ACCESS_REPORT_INFO','Ako je javni pristup dozvoljen, izveštaj može biti otvoren posebnim linkom.');
+define('TEXT_EXT_PUBLIC_URL','Javni URL');
+define('TEXT_EXT_RESOURCE_TIMELINE','Vremenska linija resursa');
+define('TEXT_EXT_RESOURCE_TIMELINE_INFO','Ovaj izveštaj prikazuje događaje povezane sa određenim entitetom. Entitet može biti označen kao resurs. <a href="https://docs.rukovoditel.net/index.php?p=117" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_EXT_RESOURCE','Resurs');
+define('TEXT_EXT_ENTER_COLUMN_WIDHT_IN_PP_BY_COMMA','Unesi širinu u procentima ili pikselima za svaku kolonu, razdvojeno zarezima.');
+define('TEXT_EXT_RELATED_ENTITY_FIELD','Odnos sa entitetom "%s"');
+define('TEXT_EXT_RELATED_ENTITY_FIELD_INFO','Podesi polje u kome je podešena relacija sa entitetom "%s".');
+define('TEXT_EXT_PROCESS_ACTION_REPEAT_ITEM','Entitet "%s " - Ponovi trenutni zapis');
+define('TEXT_EXT_RSS_FEED','RSS sadržaj');
+define('TEXT_EXT_RSS_FEED_INFO','Podesi RSS sadržaje za korisnike. U ličnom nalogu, korisnik će moći da dobije jedinstveni link za njegov RSS sadržaj. <a href="https://docs.rukovoditel.net/index.php?p=121" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_EXT_AVAILABLE_RSS_FEEDS','Raspoloživi RSS sadržaji');
+define('TEXT_EXT_AVAILABLE_RSS_FEEDS_INFO','Koristi donje linkove za dodavanje u RSS čitač.');
+define('TEXT_EXT_ENALBE_ICAL_URL','Dazvoli izvoz');
+define('TEXT_EXT_ENALBE_ICAL_URL_TIP','Biće raspoloživ poseban link na stranici kalendara koji omogućava korisniku da deli taj kalendar sa drugom aplikacijom.');
+define('TEXT_EXT_SHARE_THIS_CALENDAR','Podeli ovaj kalendar sa drugom aplikacijom');
+define('TEXT_EXT_SHARE_THIS_CALENDAR_TIP','Koristi sledeći link za pristup svom kalendaru iz druge aplikacije. Kopirajte link u bilo koji aplikaciju koja podržava iCal format.');
+define('TEXT_EXT_ENALBE_ICAL_GMT_TIP','Promeni GMT=0 u url-u na GMT=+4 ili GMT=-4 na korektni vremensku zonu za datume događaja.');
+define('TEXT_EXT_CLONE_NESTED_ITEMS','Kloniraj ugnježđene zapise');
+define('TEXT_EXT_COPY_NESTED_ITEMS','Kopiraj ugnježđene zapise');
+define('TEXT_EXT_TEMPLATES_EXPORT_ENTITY_TREE_NOTES','Za prikaz drveta, koristi konstrukciju {#entity_tree8: 0}');
+define('TEXT_EXT_APPLY_ENTITY_ACCESS_RULES','Primeni pristupna pravila entiteta');
 
 
 
