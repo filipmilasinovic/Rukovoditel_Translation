@@ -872,6 +872,34 @@ define('TEXT_EXT_COPY_NESTED_ITEMS','Kopiraj ugnježđene zapise');
 define('TEXT_EXT_TEMPLATES_EXPORT_ENTITY_TREE_NOTES','Za prikaz drveta, koristi konstrukciju {#entity_tree8: 0}');
 define('TEXT_EXT_APPLY_ENTITY_ACCESS_RULES','Primeni pristupna pravila entiteta');
 
+//new defines for ext 3.0
+define('TEXT_PRINT_TEMPLATE_AFTER_PROCESS','Štampaj šablon po završetku procesa');
+define('TEXT_EXT_HOUR','Sat');
+define('TEXT_EXT_EXPORT_SELECTED','Izvoz odabranog');
+define('TEXT_EXT_EXPORT_SELECTED_INFO','Kreira šablon za izvoz odabranih polja. Izvoz u xlsx, csv, txt i docx format. <a href="https://docs.rukovoditel.net/index.php?p=124" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_EXT_EXPORT_SELECTED_TYPE_DOCX_INFO','Po kreaciji šablona, klik na njegovo ime i pripremi tabele za izvoz. Za ubacivanje tabele u dokument koristi konstrukciju: <code>${table}</code>');
+define('TEXT_EXT_LINK_TO_RECORD_PAGE','Link na stranu zapisa');
+define('TEXT_EXT_SHOW_TOTALS_IN_CHART','Prikaži zbireve na grafiku');
+define('TEXT_EXT_PIVOT_TABLES_COLORS_TIP','Boje će se primeniti na vrednosti na osnovu konfiguracije izveštaja.');
+define('TEXT_EXT_PROCESS_FORM_CFG_INFO','Za sortiranje zapisa na formi kreiraj novi tab.');
+define('TEXT_EXT_SEND_BY_DATE','Pošalji po datumu');
+define('TEXT_EXT_DATE_FIELD','Polje datuma');
+define('TEXT_EXT_DATE_FIELD_SEND_RULE_INFO','Odaberi polje tipa "Datum" čija vrednost će biti upoređena sa trenutnim datumom.');
+define('TEXT_EXT_NUMBER_OF_DAYS','Broj dana');
+define('TEXT_EXT_NUMBER_OF_DAYS_SEND_RULE_INFO','Unesi broj dana koji se uzimaju u obzir pri poređenju datuma.<br>Raspoložive vrednosti: <code>0</code> - trenutni datum, <code>-1</code> - trenutni datum minus 1 dan, <code>+1</code> - trenutni datum plus dan. Mogu se navesti različite vrednosti: <code>0,-1,-2,-3</code>');
+define('TEXT_EXT_SEND_BY_DATE_CRON','Za slanje poruka po datumu, morate podesiti  <a href="https://docs.rukovoditel.net/index.php?p=70 " target="_blank">Cron</a> za svaki dan:');
+define('TEXT_EXT_ON_EACH_HOUR','Na svaki sat');
+define('TEXT_EXT_NUMBER_OF_HOURS','Broj sati');
+define('TEXT_EXT_NUMBER_OF_HOURS_SEND_RULE_INFO','Unesi broj sati koji se uzimaju u obzir pri poređenju datuma.<br>Raspoložive vrednosti: <code>0</code> - trenutni sat, <code>-1</code> - trenutni sat minus 1 dan, <code>+1</code> - trenutni sat plus dan. Mogu se navesti različite vrednosti: <code>0,-1,-2,-3</code>');
+define('TEXT_EXT_PROCESS_ACTION_RUN_PHP','Entitet "%s " - izvrši php skript');
+define('TEXT_EXT_PROCESS_ACTION_RUN_PHP_TIP','Za dobijanje brednosti iz trenutnog zapisa, koristi [field id]. <a href="https://docs.rukovoditel.net/index.php?p=125" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_EXT_WARNING_TEXT','Teskt upozorenja');
+define('TEXT_EXT_PROCESSES_WARNING_MESSAGE_TIP','Prikazuje se po pritisku tastera procesa ako uslovi instaliranih filtera nisu zadovoljeni. Ako se ne unese, taster procesa će biti sakriven.');
+define('TEXT_EXT_PROCESS_ACTION_UNLINK_RECORDS_BY_MYSQL_QUERY','Povezani zapisi "%s" - odspoj zapise MySQL upitom');
+define('TEXT_EXT_PROCESS_ACTION_UNLINK_RECORDS_BY_MYSQL_QUERY_INFO','Odabrani zapisi pod određenim uslovom će biti automatski odspojeni od trenutnog zapisa. U uslovu se mogu koristiti vrednosti polja trenutnog zapisa. Na primer: field_12 = [126]<br>12-id polja u povezanom zapisu. 126 - id polja u trenutnom zapisu.');
+define('TEXT_EXT_RUN_PROCESS_AFTER_RECORD_UPDATE','Pokreni proces posle ažuriranja polja');
+define('TEXT_EXT_RUN_PROCESS_BEFOR_RECORD_DELETE','Pokreni proces pre brisanja polja');
+define('TEXT_EXT_NUMBER_OF_COPIES','Broj kopija');
 
 
 
