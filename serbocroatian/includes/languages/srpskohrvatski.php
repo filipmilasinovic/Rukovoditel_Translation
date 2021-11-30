@@ -1718,6 +1718,60 @@ define('TEXT_SCANNING_BARCODE','Skeniranje bar koda');
 define('TEXT_SSL_REQUIRED','SSL je obavezan');
 define('TEXT_CAMERA','Kamera');
 
+//new defines for version 2.9
+define('TEXT_APPLY','Primeni');
+define('TEXT_CANCEL','Otkaži');
+define('TEXT_ASSIGN_USER_TO_MULTIPLE_GROUPS','Dodaj korisnika u više grupa');
+define('TEXT_ASSIGN_USER_TO_MULTIPLE_GROUPS_INFO','Korisnk će moći da menja grupe u svom ličnom nalogu. <a href="https://docs.rukovoditel.net/index.php?p=116" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_DISPLAY_USER_GROUP_IN_MENU','Prikaži ime pristupne grupe u meniju');
+define('TEXT_CHANGE_ACCESS_GROUP','Promeni pristupnu grupu');
+define('TEXT_LOGIN_AS_USER','Prijavi se kao');
+define("TEXT_HOURLY",'Na sat');
+define('TEXT_DISTANCE','Razdaljina');
+define('TEXT_CALCULATE_TOTAL_DISTANCE','Izračunaj ukupnu razdaljinu');
+define('TEXT_KILOMETERS','Kilometara');
+define('TEXT_MILES','Milja');
+define('TEXT_TOTAL_DISTANCE_IN_KILOMETERS','Ukupna razdaljina u kilometrima');
+define('TEXT_TOTAL_DISTANCE_IN_MILES','Ukupna razdaljina u miljama');
+define('TEXT_SAVE_VALUE','Snimi vrednost');
+define('TEXT_FIELDTYPE_GOOGLE_MAP_DIRETIONS_SAVE_VALUE_TIP','Odaberi numeričko polje da snimiš razdaljinu. Vrednost će biti snimljena u pozadini posle rendera mape.');
+define('TEXT_ERROR_LIB','PHP <b>%s</b> biblioteka NIJE instalirana na vašem veb severu');
+define('TEXT_EXTNER_VALUE_IN_PERCENT_OR_PIXELS','Unesi vrednost u procentima ili pikselima. Na primer: 50 ili 50%');
+define('TEXT_SOCIAL_LOGIN','Prijava putem društvenih mreža');
+define('TEXT_ENABLE_SOCIAL_LOGIN','Omogući prijavu putem društvenih mreža');
+define('TEXT_ENABLE_SOCIAL_LOGIN_ONLY','Omogući samo prijavu putem društvenih mreža');
+define('TEXT_SELECT_SOCIAL_NETWORKS','Odaberi društvene mreže');
+define('TEXT_APP_ID','APP ID');
+define('TEXT_VKONTAKTE','Vkontakte');
+define('TEXT_SECRET_KEY','Tajni ključ');
+define('TEXT_LOGIN_WITH','Prijavi se sa');
+define('TEXT_CREATE_USER','Kreiraj korisnika');
+define('TEXT_CREATE_USER_AUTOMATICALLY','Automatski kreiraj korisnika');
+define('TEXT_REDIRECT_TO_PUBLIC_REGISTRATION','Preusmeri na javnu formu za registraciju');
+define('TEXT_GOOGLE','Google');
+define('TEXT_FACEBOOK','Facebook');
+define('TEXT_REDIRECT_URI','URI za preusmeravanje');
+define('TEXT_LINKEDIN','LinkedIn');
+define('TEXT_TWITTER','Twitter');
+define('TEXT_SOCIAL_LOGIN_INFO','Na ovoj strani je moguće konfigurisati prijavu putem popularnih društvenih mreža. <a href="https://docs.rukovoditel.net/index.php?p=118" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_GUEST_LOGIN','Prijava kao gost');
+define('TEXT_GUEST_LOGIN_INFO','Podesi pristup aplikaciji gostu bez unosa korisničkog imena i lozinke. <a href="https://docs.rukovoditel.net/index.php?p=120" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_ENABLE_GUEST_LOGIN','Omogući pristup gostu');
+define('TEXT_LOGIN_AS_GUEST','Prijavi se kao gost');
+define('TEXT_GUEST_LOGIN_USER_INFO','Odabrani korisnik će se automatski prijaviti kada se prijavi gost.');
+define('TEXT_TREE_TABLE','Tabela drvo');
+define('TEXT_FIELDTYPE_NESTED_CALCULATIONS_TITLE','Ugnježdene kalkulacije');
+define('TEXT_FIELDTYPE_NESTED_CALCULATIONS_TOOLTIP','Poseban tip polja za izračunavanje u poljima podentiteta unutar iste grane drveta. <a href="https://docs.rukovoditel.net/index.php?p=123" target="_blank"><u>Pročitaj više.</u></a>'
+        . '<p><b>Please note:</b> proračun se izvodi samo pri dodavanju/izmeni zapisa na datoj grani drveta.</p>');
+define('TEXT_FUNCTION','Funkcija');
+define('TEXT_PERFORM_CALCULATION','Izvrši proračun');
+define('TEXT_ONLY_AT_THE_TOP_LEVEL','Samo na najvišem nivou');
+define('TEXT_ALL_OVER_TREE_BRANCH','Svuda u grani drveta');
+define('TEXT_FUNCTION_SUM','SUM - izračunava sumu vrednosti');
+define('TEXT_FUNCTION_COUNT','COUNT - prebrojava elemente');
+define('TEXT_DISPLAY_NESTED_RECORDS','Prikazuje zapise u podentitetu');
+define('TEXT_CHANGE_PARENT_ITEM','Promeni roditelja zapisu');
+
 
 
 
