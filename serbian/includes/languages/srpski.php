@@ -1856,3 +1856,21 @@ define('TEXT_FORM_WIZARD_INFO','Подели унос података по ко
 define('TEXT_NEXT','Следећи');
 define('TEXT_PREVIOUS','Претходни');
 define('TEXT_OF','од');
+
+//new defines for version 3.1
+define('TEXT_EMAILS_LAYOUT','Распоред Е-поште');
+define('TEXT_EMAILS_LAYOUT_INFO','Креира HTML распоред за Е-пошту у апликацији. <a href="https://docs.rukovoditel.net/index.php?p=132" target="_blank"><u>Прочитај више.</u></a>');
+define('TEXT_SEND_TEST_EMAIL_INFO','Е-пошта са заглављем "%s" ће бити послата на:');
+define('TEXT_COUNTRY','Држава');
+define('TEXT_INTERNATIONAL','Интернационално');
+define('TEXT_STEAM','Steam');
+define('TEXT_DOMAIN','Домен');
+define('TEXT_HTML_CODE','HTML Код');
+define('TEXT_MYSQL_QUERY','MySQL упит');
+define('TEXT_USE_HTML_EDITOR','Користи HTML едитор');
+define('TEXT_EMPTY_VALUE','Празна вредност');
+define('TEXT_AVAILABLE_VALUES','Расположиве вредности');
+define('TEXT_FIELDTYPE_YANDEX_MAP_TITLE','Yandex мапа');
+define('TEXT_FIELDTYPE_YANDEX_MAP_TOOLTIP','Поље за приказ маркера на мапи. Координате маркера се одрешђују аутоматки по унетој адреси.');
+define('TEXT_FIELDTYPE_YANDEX_MAP_API_KEY_TIP','<a href="https://developer.tech.yandex.ru/" target="_blank">developer.tech.yandex.ru</a>');
+define('TEXT_YANDEX','Yandex');
