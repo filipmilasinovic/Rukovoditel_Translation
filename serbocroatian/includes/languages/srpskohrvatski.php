@@ -1857,6 +1857,23 @@ define('TEXT_NEXT','Sledeći');
 define('TEXT_PREVIOUS','Prethodni');
 define('TEXT_OF','od');
 
+//new defines for version 3.1
+define('TEXT_EMAILS_LAYOUT','Raspored E-pošte');
+define('TEXT_EMAILS_LAYOUT_INFO','Kreira HTML raspored za E-poštu u aplikaciji. <a href="https://docs.rukovoditel.net/index.php?p=132" target="_blank"><u>Pročitaj više.</u></a>');
+define('TEXT_SEND_TEST_EMAIL_INFO','E-pošta sa zaglavljem "%s" će biti poslata na:');
+define('TEXT_COUNTRY','Država');
+define('TEXT_INTERNATIONAL','Internacionalno');
+define('TEXT_STEAM','Steam');
+define('TEXT_DOMAIN','Domen');
+define('TEXT_HTML_CODE','HTML Kod');
+define('TEXT_MYSQL_QUERY','MySQL upit');
+define('TEXT_USE_HTML_EDITOR','Koristi HTML editor');
+define('TEXT_EMPTY_VALUE','Prazna vrednost');
+define('TEXT_AVAILABLE_VALUES','Raspoložive vrednosti');
+define('TEXT_FIELDTYPE_YANDEX_MAP_TITLE','Yandex mapa');
+define('TEXT_FIELDTYPE_YANDEX_MAP_TOOLTIP','Polje za prikaz markera na mapi. Koordinate markera se odrešđuju automatki po unetoj adresi.');
+define('TEXT_FIELDTYPE_YANDEX_MAP_API_KEY_TIP','<a href="https://developer.tech.yandex.ru/" target="_blank">developer.tech.yandex.ru</a>');
+define('TEXT_YANDEX','Yandex');
 
 
 
