@@ -919,3 +919,16 @@ define('TEXT_EXT_PRINTABLE_REPORT','Извештај за штампу');
 define('TEXT_EXT_SINGLE_PAGE','Једна страна');
 define('TEXT_EXT_REPORT_LINKED_TO_ENTITY_INFO','Одабери ентитет ако је извештај у вези са специфичним записом.');
 define('TEXT_EXT_TAG_X_ATTRIBUTES','Таг <code>%s</code> атрибути');
+
+//new defines for ext 3.2
+define('TEXT_EXT_DISPLAY_OBJECT_LIST','Приказ листе објеката');
+define('TEXT_EXT_MAP_SIDEBAR_TIP','Листа свих објеката на мапи ће бити приказана на бочној траци');
+define('TEXT_EXT_VERTICAL_VIEW','Вертикални приказ');
+define('TEXT_EXT_ANSWERED','Одговорено');
+define('TEXT_EXT_DURATION','Дужина');
+define('TEXT_EXT_NOT_ANSWERED','Није одговорено');
+define('TEXT_EXT_ALL_CALLS_BY_NUMBER','Сви позиви по броју');
+define('TEXT_EXT_UNLISTENED','Није на листи');
+define('TEXT_EXT_CREATE_GROUP','Креирање групе');
+define('TEXT_EXT_COMBINE_TEMPLATES_INFO','Комбинује неколоико шаблона у једно поље које је расположиво преко посебног линка.');
+define('TEXT_EXT_MAXIMUM_TABLE_HEIGHT','Максимална висина табеле');
