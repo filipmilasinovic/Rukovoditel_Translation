@@ -902,14 +902,20 @@ define('TEXT_EXT_RUN_PROCESS_AFTER_RECORD_UPDATE','Покрени процес �
 define('TEXT_EXT_RUN_PROCESS_BEFOR_RECORD_DELETE','Покрени процес пре брисања поља');
 define('TEXT_EXT_NUMBER_OF_COPIES','Број копија');
 
-
-
-
-
-
-
-
-
-
-
-
+//new defines for ext 3.1
+define('TEXT_EXT_SAVE_ATTACHMENTS_ZIP_TIP','Одабери прилоге који ће бити додати архиви');
+define('TEXT_EXT_HTML_BLOCKS','HTML блокови');
+define('TEXT_EXT_EMAIL_SENDING_HTNL_BLOCK_INFO','Креирање HTML шаблона који се може користити у е-порукама.');
+define('TEXT_EXT_STACKED_PERCENT_COLUMN_CHART','Колона са наслаганим процентима');
+define('TEXT_EXT_STACKED_COLUMN_CHART','Наслагана колона');
+define('TEXT_EXT_AREA_CHART','Површина');
+define('TEXT_EXT_STACKED_AREA_CHART','Наслагана површина');
+define('TEXT_EXT_ONLY_CHART','Само график');
+define('TEXT_EXT_RUN_PROCESS_ON_SCHEDULE','Покрени процес у заказаном распореду');
+define('TEXT_EXT_RUN_PROCESS_ON_SCHEDULE_INFO','За покретанје процеса у заказаном распореду, користи ову команду. <a href="https://docs.rukovoditel.net/index.php?p=133" target="_blank"><u>Прочитај више.</u></a>');
+define('TEXT_EXT_REPORT_DESIGNER','Дизајнер извештаја');
+define('TEXT_EXT_REPORT_DESIGNER_INFO','Креирај своје упите за одабир података из ентитета у апликацији. <a href="https://docs.rukovoditel.net/index.php?p=134" target="_blank"><u>Прочитај више.</u></a>');
+define('TEXT_EXT_PRINTABLE_REPORT','Извештај за штампу');
+define('TEXT_EXT_SINGLE_PAGE','Једна страна');
+define('TEXT_EXT_REPORT_LINKED_TO_ENTITY_INFO','Одабери ентитет ако је извештај у вези са специфичним записом.');
+define('TEXT_EXT_TAG_X_ATTRIBUTES','Таг <code>%s</code> атрибути');
